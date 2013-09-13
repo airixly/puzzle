@@ -1,1 +1,1 @@
-A puzzle needs to be solved
+Find the shortest way.
