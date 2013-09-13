@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puzzles!</title>
+    <link rel="stylesheet" href="assets/puzzles.css">
+</head>
+<body>
+<div class="info">
+    <p>
+        There're 7 red titles,8 blue titles and one white title in a 4&#215;4 panel.We
+        could only move the white title.When moving it,the white title swaps the
+        position with the adjacent
+        titlel.Left,Right,Up,Down are corresponding to four directions which the
+        title
+        could be moved to.For example,starting from (S),by move sequence <b>RDRRL</b>
+        we reach the
+        (E),find the shortest way to reach (T).
+    </p>
+</div>
+<div class="example-panel">
+    <div class="origin-table">
+        <table>
+            <tr class="row-1">
+                <td class="first moveable"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+            <tr class="row-2">
+                <td class="first"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+            <tr class="row-3">
+                <td class="first"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+            <tr class="row-4">
+                <td class="first"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+        </table>
+        <div>
+            <span>(S)</span>
+        </div>
+    </div>
+    <div class="example-table">
+        <table>
+            <tr class="row-1">
+                <td class="first"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+            <tr class="row-2">
+                <td class="first"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+            <tr class="row-3">
+                <td class="first"></td>
+                <td class="second moveable"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+            <tr class="row-4">
+                <td class="first"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+        </table>
+        <div>
+            <span>(E)</span>
+        </div>
+    </div>
+
+    <div class="target-table">
+        <table>
+            <tr class="row-1">
+                <td class="first moveable"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+            <tr class="row-2">
+                <td class="first"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+            <tr class="row-3">
+                <td class="first"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+            <tr class="row-4">
+                <td class="first"></td>
+                <td class="second"></td>
+                <td class="third"></td>
+                <td class="fourth"></td>
+            </tr>
+        </table>
+        <div>
+            <span>(T)</span>
+        </div>
+    </div>
+</div>
+<div class="active-panel">
+    <table id="active-table">
+        <tr class="row-1">
+            <td class="first current"></td>
+            <td class="second"></td>
+            <td class="third"></td>
+            <td class="fourth"></td>
+        </tr>
+        <tr class="row-2">
+            <td class="first"></td>
+            <td class="second"></td>
+            <td class="third"></td>
+            <td class="fourth"></td>
+        </tr>
+        <tr class="row-3">
+            <td class="first"></td>
+            <td class="second"></td>
+            <td class="third"></td>
+            <td class="fourth"></td>
+        </tr>
+        <tr class="row-4">
+            <td class="first"></td>
+            <td class="second"></td>
+            <td class="third"></td>
+            <td class="fourth"></td>
+        </tr>
+    </table>
+    <div>
+        <p>Click white title's Right or Down to start</p>
+    </div>
+</div>
+<script src="js/utils.js"></script>
+<script src="js/puzzles.js"></script>
+</body>
+</html>
