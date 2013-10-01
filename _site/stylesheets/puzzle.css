@@ -1,0 +1,92 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+td {
+  width: 30px;
+  height: 30px;
+  background: #af290a;
+}
+.info {
+  padding: 20px 0;
+}
+.info p {
+  font-size: 19px;
+  font-weight: 200;
+  line-height: 30px;
+}
+div.example-panel {
+  height: 200px;
+  padding: 0;
+}
+div.example-panel div[class*="table"] {
+  float: left;
+  margin: 0 50px;
+}
+div.example-panel div[class*="table"] div {
+  padding: 10px;
+  text-align: center;
+}
+div.example-panel .origin-table td.third,
+div.example-panel .example-table td.third,
+div.example-panel .origin-table td.fourth,
+div.example-panel .example-table td.fourth {
+  background-color: #4876e3;
+}
+div.example-panel .origin-table td.moveable,
+div.example-panel .example-table td.moveable {
+  background-color: #ffffff;
+}
+div.example-panel .example-table .row-2 td.second {
+  background-color: #4876e3;
+}
+div.example-panel .example-table .row-3 td.third {
+  background-color: #af290a;
+}
+div.example-panel .example-table .row-3 td.moveable {
+  background-color: #ffffff;
+}
+div.example-panel .target-table .row-1 td.second,
+div.example-panel .target-table .row-3 td.second,
+div.example-panel .target-table .row-1 td.fourth,
+div.example-panel .target-table .row-3 td.fourth {
+  background-color: #4876e3;
+}
+div.example-panel .target-table .row-1 td.current,
+div.example-panel .target-table .row-3 td.current,
+div.example-panel .target-table .row-1 td.moveable,
+div.example-panel .target-table .row-3 td.moveable {
+  background-color: #ffffff;
+}
+div.example-panel .target-table .row-2 td.first,
+div.example-panel .target-table .row-4 td.first,
+div.example-panel .target-table .row-2 td.third,
+div.example-panel .target-table .row-4 td.third {
+  background-color: #4876e3;
+}
+.active-panel table td.third,
+.active-panel table td.fourth {
+  background-color: #4876e3;
+}
+.active-panel table td.current {
+  background-color: #ffffff;
+}
+div.active-panel {
+  position: relative;
+  left: 355px;
+  top:-269px;
+  clear: left;
+  padding-left: 50px;
+}
+div.active-panel div {
+  position: relative;
+  left: -50px;
+  top: 20px;
+}
+div.active-panel div p {
+  padding: 20px;
+  background-color: #f5f5f5;
+  width: 286px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
